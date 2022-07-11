@@ -13,6 +13,8 @@ function App() {
     .then(
       (result) => {
         setInfo(result)
+        console.log(result)
+        console.log(info)
       }
     )
   }

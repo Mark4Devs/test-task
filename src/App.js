@@ -8,7 +8,7 @@ function App() {
     getData()
   }, [])
   const getData = () => {
-    fetch("https://api.jsonbin.io/v3/b/62cc027a5d53821c309adc48")
+    fetch("https://jsonkeeper.com/b/6R09")
     .then(res => res.json())
     .then(
       (result) => {

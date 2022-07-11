@@ -8,7 +8,7 @@ function App() {
     getData()
   }, [])
   const getData = () => {
-    fetch("http://localhost:3001/items")
+    fetch("https://api.jsonbin.io/v3/b/62cc027a5d53821c309adc48")
     .then(res => res.json())
     .then(
       (result) => {

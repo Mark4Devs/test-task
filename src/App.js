@@ -8,7 +8,7 @@ function App() {
     getData()
   }, [])
   const getData = () => {
-    fetch("https://github.com/Mark4Devs/test-task/blob/master/data.json")
+    fetch("http://localhost:3001/items")
     .then(res => res.json())
     .then(
       (result) => {

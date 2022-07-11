@@ -8,7 +8,7 @@ function App() {
     getData()
   }, [])
   const getData = () => {
-    fetch("https://json.extendsclass.com/bin/8651789aadb6")
+    fetch("https://github.com/Mark4Devs/test-task/blob/master/data.json")
     .then(res => res.json())
     .then(
       (result) => {

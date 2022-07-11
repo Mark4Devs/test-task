@@ -8,7 +8,7 @@ function App() {
     getData()
   }, [])
   const getData = () => {
-    fetch("https://jsonkeeper.com/b/6R09")
+    fetch("https://json.extendsclass.com/bin/8651789aadb6")
     .then(res => res.json())
     .then(
       (result) => {

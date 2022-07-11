@@ -13,11 +13,10 @@ function App() {
     .then(
       (result) => {
         setInfo(result)
-        console.log(result)
-        console.log(info)
       }
     )
   }
+  console.log(info);
   window.onload = function () { 
     let count = document.getElementsByTagName("*");
     console.log("Elements total:" + count.length);
